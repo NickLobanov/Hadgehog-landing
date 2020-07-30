@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="page/index.css">
+    <title>Hadgehog</title>
 </head>
-<body>
-    
+<body class="page">
+    <header class="header">
+        <a class="header__link-logo"><img src="images/Logo.svg" alt="Логотп" class="header__logo"></a>
+        <ul class="header__menu">
+            <li class="header__menu-item"><a href="#" class="header__link">Каталог</a></li>
+            <li class="header__menu-item"><a href="#" class="header__link">О нас</a></li>
+            <li class="header__menu-item"><a href="#" class="header__link">Контакты</a></li>
+            <li class="header__menu-item"><a href="#" class="header__link">Галерея</a></li>
+        </ul>
+        <div class="header__phone">
+            <div class="header__phone-container"><img src="images/phone.svg" alt="" class="header__phone-image"></div>
+            <div class="header__contacts">
+                <p class="header__text">Позвоните мне</p>
+                <p class="header__number">+7 (965) 569-89-98</p>
+            </div> 
+        </div>
+         <img class="header__basket" src="images/basket.svg" alt="">  
+    </header>
+
+    <section class="description">
+        <img class="description__image" src="images/hadgehog-img.svg" alt="Ёжики">
+        <p class="description__text">ТОЖЕ ЛЮБЯТ МОЛОКО</p>
+        <p class="description__subtitle">Заведите себе ёжика. Он всегда выслушает, не будет мяукать в 5 утра и царапать вашу мебель</p>
+        <button class="description__button" type="button">Купить ёжика</button>
+    </section>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.header__menu-item {
+    margin-right: 90px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #195557;
+}
+
+.header__menu-item:last-of-type {
+    margin-right: 0;
+}

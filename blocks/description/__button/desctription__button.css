@@ -1,0 +1,14 @@
+.description__button {
+    width: 328px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    border-radius: 40px;
+    border: none;
+    background-color: #70908B;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
