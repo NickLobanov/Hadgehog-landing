@@ -1,0 +1,14 @@
+@import url(./__circle/icon__circle.css);
+@import url(./__circle/_background/icon__circle_background_care.css);
+@import url(./__circle/_background/icon__circle_background_health.css);
+@import url(./__image/icon__image.css);
+@import url(./__subtitle/icon__subtitle.css);
+@import url(./__title/icon__title.css);
+
+.icon {
+    width: 191px;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
