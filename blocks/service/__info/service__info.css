@@ -1,0 +1,10 @@
+.service__info {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 37px;
+    height: 37px;
+    background-image: url(../../../images/info.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

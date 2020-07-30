@@ -1,0 +1,13 @@
+.service__item {
+    position: relative;
+    display: flex;
+    width: 571px;
+    background-color: #ffedcd;
+    box-shadow: 4px 4px 40px #F1F1F1;
+    border-radius: 20px;
+}
+
+.service__item:last-of-type {
+    margin: 0 auto;
+    margin-top: 27px;
+}

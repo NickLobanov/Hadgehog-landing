@@ -1,0 +1,4 @@
+.service__image {
+    display: block;
+    object-fit: scale-down;
+}

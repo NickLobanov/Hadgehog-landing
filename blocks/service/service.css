@@ -1,0 +1,19 @@
+@import url(./__title/service__title.css);
+@import url(./__price/service__price.css);
+@import url(./__old-price/service__old-price.css);
+@import url(./__item/service__item.css);
+@import url(./__image/service__image.css);
+@import url(./__description/service__description.css);
+@import url(./__container/service__container.css);
+@import url(./__sale/service__sale.css);
+@import url(./__info/service__info.css);
+@import url(./__plus/service__plus.css);
+
+.service {
+    width: 1182px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 140px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

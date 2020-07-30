@@ -1,0 +1,13 @@
+.service__sale {
+    padding: 6px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    background-color: #70908b;
+}
