@@ -1,0 +1,6 @@
+.footer__navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-top: 50px;
+}
