@@ -1,0 +1,21 @@
+@import url(./__title/popup__title.css);
+@import url(./__selector/popup__selector.css);
+@import url(./__notice/popup__notice.css);
+@import url(./__form/popup__form.css);
+@import url(./__button/popup__button.css);
+@import url(./__wrap/popup__wrap.css);
+@import url(./__select-item/popup__select-item.css);
+@import url(./__contacts/popup__contacts.css);
+@import url(./__label/popup__label.css);
+@import url(./__checkbox/popup__checkbox.css);
+
+.popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(00, 00, 00, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    overflow: hidden;
+}

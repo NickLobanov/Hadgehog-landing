@@ -1,8 +1,12 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__link/_type_footer/navbar__link_type_footer.css);
+@import url(../blocks/navbar/__contacts/_type_footer/navbar__contacts_type_footer.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/icons/icons.css);
 @import url(../blocks/icon/icon.css);
 @import url(../blocks/icon/_type_high/icon_type_high.css);
 @import url(../blocks/service/service.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/popup/popup.css);

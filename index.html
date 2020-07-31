@@ -9,21 +9,23 @@
 </head>
 <body class="page">
     <header class="header">
-        <a class="header__link-logo"><img src="images/Logo.svg" alt="Логотп" class="header__logo"></a>
-        <ul class="header__menu">
-            <li class="header__menu-item"><a href="#" class="header__link">Каталог</a></li>
-            <li class="header__menu-item"><a href="#" class="header__link">О нас</a></li>
-            <li class="header__menu-item"><a href="#" class="header__link">Контакты</a></li>
-            <li class="header__menu-item"><a href="#" class="header__link">Галерея</a></li>
-        </ul>
-        <div class="header__phone">
-            <div class="header__phone-container"><img src="images/phone.svg" alt="" class="header__phone-image"></div>
-            <div class="header__contacts">
-                <p class="header__text">Позвоните мне</p>
-                <p class="header__number">+7 (965) 569-89-98</p>
-            </div> 
-        </div>
-         <img class="header__basket" src="images/basket.svg" alt="">  
+        <nav class="navbar">
+            <a class="navbar__link-logo"><img src="images/Logo.svg" alt="Логотп" class="navbar__logo"></a>
+            <ul class="navbar__menu">
+                <li class="navbar__menu-item"><a href="#" class="navbar__link">Каталог</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__link">О нас</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__link">Контакты</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__link">Галерея</a></li>
+            </ul>
+            <div class="navbar__phone">
+                <div class="navbar__phone-container"><img src="images/phone.svg" alt="" class="navbar__phone-image"></div>
+                <div class="navbar__contacts">
+                    <p class="navbar__text">Позвоните мне</p>
+                    <p class="navbar__number">+7 (965) 569-89-98</p>
+                </div> 
+            </div>
+            <div class="navbar__basket"></div>
+        </nav>
     </header>
 
     <section class="description">
@@ -89,28 +91,45 @@
         </div>
     </section>
     <footer class="footer">
-        <nav class="footer__navbar">
-            <a class="header__link-logo"><img src="images/Logo.svg" alt="Логотп" class="header__logo"></a>
-            <ul class="header__menu">
-                <li class="header__menu-item"><a href="#" class="header__link">Каталог</a></li>
-                <li class="header__menu-item"><a href="#" class="header__link">О нас</a></li>
-                <li class="header__menu-item"><a href="#" class="header__link">Контакты</a></li>
-                <li class="header__menu-item"><a href="#" class="header__link">Галерея</a></li>
+        <nav class="navbar">
+            <a class="navbar__link-logo"><img src="images/logo-footer.svg" alt="Логотп" class="navbar__logo"></a>
+            <ul class="navbar__menu">
+                <li class="navbar__menu-item"><a href="#" class="navbar__link navbar__link_type_footer">Каталог</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__link navbar__link_type_footer">О нас</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__link navbar__link_type_footer">Контакты</a></li>
+                <li class="navbar__menu-item"><a href="#" class="navbar__link navbar__link_type_footer">Галерея</a></li>
             </ul>
-            <ul class="footer__social">
-                <li><a href="#" class="footer__inst"></a></li>
-                <li><a href="#" class="footer__fb"></a></li>
-                <li><a href="#" class="footer__tw"></a></li>
+            <ul class="navbar__social">
+                <li><a href="#" class="navbar__inst"></a></li>
+                <li><a href="#" class="navbar__fb"></a></li>
+                <li><a href="#" class="navbar__tw"></a></li>
             </ul>
-            <div class="header__phone">
-                <div class="header__contacts">
-                    <p class="header__text">Позвоните мне</p>
-                    <p class="header__number">+7 (965) 569-89-98</p>
+            <div class="navbar__phone">
+                <div class="navbar__contacts navbar__contacts_type_footer">
+                    <p class="navbar__text">Позвоните мне</p>
+                    <p class="navbar__number">+7 (965) 569-89-98</p>
                 </div> 
             </div>
         </nav>
         <p class="footer__text">Все права защищены</p>
         <p class="footer__text">Указанная стоимость товаров и условия их приобретения действительны на текущую дату.</p>
     </footer>
+    <div class="popup">
+        <div class="popup__wrap">
+            <form action="" class="popup__form">
+                <h2 class="popup__title">Получить бесплатную консультацию</h2>
+                <select name="" id="" class="popup__selector">
+                    <option value="Санкт-Петербург" class="popup__select-item">Санкт-Петербург</option>
+                </select>
+                <input type="text"  placeholder="Ваше имя" class="popup__contacts">
+                <input type="number" placeholder="Телефон" class="popup__contacts">
+                <label for="buy-hog" class="popup__label"><input class="popup__checkbox" type="checkbox" checked="checked" id="buy-hog">Хочу приобрести ежика</label>
+                <label for="about-care" class="popup__label"><input class="popup__checkbox" type="checkbox" id="about-care">Хочу узнать подробности об уходе</label>
+                <label for="about-buy" class="popup__label"><input class="popup__checkbox" type="checkbox" id="about-buy">Хочу узнать подробности о покупке</label>
+                <button class="popup__button">Отправить</button>
+                <p class="popup__notice">Нажимая кнопку ОТПРАВТЬ вы соглашаетесь с условиями оброботки данных</p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,10 @@
+.navbar__phone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    min-height: 69px;
+    width: 69px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #B0D3CE, #FFEDCE)
+}

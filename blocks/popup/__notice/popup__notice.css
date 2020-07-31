@@ -1,0 +1,10 @@
+.popup__notice {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #195557;
+    text-align: center;
+    margin-bottom: 55px;
+}

@@ -1,0 +1,10 @@
+.navbar__link {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557
+}

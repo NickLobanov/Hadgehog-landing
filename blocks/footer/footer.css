@@ -1,10 +1,7 @@
-@import url(./__fb/footer__fb.css);
-@import url(./__inst/footer__inst.css);
-@import url(./__social/footer__social.css);
-@import url(./__tw/footer__tw.css);
 @import url(./__navbar/footer__navbar.css);
 @import url(./__text/footer__text.css);
 
 .footer {
     background-color: #70908b;
+    padding-top: 50px;
 }

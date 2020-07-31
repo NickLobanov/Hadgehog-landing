@@ -1,16 +1,4 @@
-@import url(./__menu/header__menu.css);
-@import url(./__link-logo/header__link-logo.css);
-@import url(./__menu-item/header__menu-item.css);
-@import url(./__phone/header__phone.css);
-@import url(./__phone-image/header__phone-image.css);
-@import url(./__phone-container/header__phone-container.css);
-@import url(./__text/header__text.css);
-@import url(./__number/header__number.css);
-@import url(./__basket/header__basket.css);
-
 .header {
     padding-top: 40px;
     margin-bottom: 173px;
-    align-items: center;
-    display: flex;
 }

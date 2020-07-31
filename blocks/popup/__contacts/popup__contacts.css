@@ -1,0 +1,22 @@
+.popup__contacts {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 27px;
+    background: #f8f8f8;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 11px;
+}
+
+.popup__contacts::placeholder {
+    color: #195557;
+}
+
+.popup__contacts:last-of-type {
+    margin-bottom: 28px;
+}

@@ -1,0 +1,24 @@
+@import url(./__text/navbar__text.css);
+@import url(./__phone/navbar__phone.css);
+@import url(./__phone-image/navbar__phone-image.css);
+@import url(./__phone-container/navbar__phone-container.css);
+@import url(./__number/navbar__number.css);
+@import url(./__menu/navbar__menu.css);
+@import url(./__menu-item/navbar__menu-item.css);
+@import url(./__logo/navbar__logo.css);
+@import url(./__link/navbar__link.css);
+@import url(./__link-logo/navbar__link-logo.css);
+@import url(./__contacts/navbar__contacts.css);
+@import url(./__basket/navbar__basket.css);
+@import url(./__social/navbar__social.css);
+@import url(./__tw/navbar__tw.css);
+@import url(./__fb/navbar__fb.css);
+@import url(./__inst/navbar__inst.css);
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 1800px;
+    margin: 0 auto;
+}
+

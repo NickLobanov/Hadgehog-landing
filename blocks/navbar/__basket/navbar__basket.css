@@ -1,0 +1,9 @@
+.navbar__basket {
+    background-image: url(../../../images/basket.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 36px;
+    height: 32px;
+    position: relative;
+}
