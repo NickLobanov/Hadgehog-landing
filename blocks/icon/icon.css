@@ -12,3 +12,28 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 1440px) {
+    .icon {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .icon {
+        width: 165px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icon {
+        width: 191px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .icon {
+        align-items: flex-start;
+        width: 110px;
+    }
+}

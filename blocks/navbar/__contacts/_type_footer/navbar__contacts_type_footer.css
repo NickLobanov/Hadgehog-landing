@@ -1,4 +1,10 @@
 .navbar__contacts_type_footer {
     color: #ffffff;
-    margin-left: 71px;
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar__contacts_type_footer {
+        display: block;
+        margin-right: 3%;
+    }
 }

@@ -1,0 +1,19 @@
+.navbar__burger {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar__burger {
+        display: block;
+        width: 25px;
+        height: 14px;
+        background-image: url(../../../images/burger.svg);
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .navbar__burger {
+        margin-right: 35%;
+    }
+}

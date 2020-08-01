@@ -1,7 +1,39 @@
 .page {
+    min-width: 320px;
     margin: 0;
     padding: 0;
     background-image: url(../../images/Fon.png);
     background-repeat: no-repeat;
     background-size: initial;
+    background-position-x: center ;
+}
+
+@media screen and (max-width: 1200px) {
+    .page {
+        background-position-y: -30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .page {
+        background-position-y: -45px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .page {
+        background-position-y: -185px; 
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .page {
+        background-position-y: -260px; 
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .page {
+        background-position-y: -340px;
+    }
 }

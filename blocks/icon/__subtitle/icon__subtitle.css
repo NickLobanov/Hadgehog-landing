@@ -8,3 +8,36 @@
     color: #195557;
     margin-top: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .icon__subtitle {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .icon__subtitle {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icon__subtitle {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .icon__subtitle {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .icon__subtitle {
+        font-size: 10px;
+    }
+}

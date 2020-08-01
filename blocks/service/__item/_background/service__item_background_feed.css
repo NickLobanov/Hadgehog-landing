@@ -1,0 +1,5 @@
+.service__item_background_feed {
+    background-image: url(../../../../images/background-feed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

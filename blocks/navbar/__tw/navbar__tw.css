@@ -4,3 +4,9 @@
     height: 40px;
     background-image: url(../../../images/twitter.svg);
 }
+
+@media screen and (max-width: 800px) {
+    .navbar__tw {
+        margin: 0;
+    }
+}

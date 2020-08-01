@@ -1,3 +1,9 @@
 .navbar__contacts {
     white-space: nowrap;
 }
+
+@media screen and (max-width: 1150px) {
+    .navbar__contacts {
+        display: none;
+    }
+}

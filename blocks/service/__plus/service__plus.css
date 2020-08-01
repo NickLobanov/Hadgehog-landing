@@ -4,4 +4,15 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    background-image: url(../../../images/plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 3;
+}
+
+@media screen and (max-width: 530px) {
+    .service__plus {
+        width: 24px;
+        height: 24px;
+    }
 }

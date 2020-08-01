@@ -8,3 +8,24 @@
     margin-bottom: 34px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 1440px) {
+    .description__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .description__subtitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .description__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

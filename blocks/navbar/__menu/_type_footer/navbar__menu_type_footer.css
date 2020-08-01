@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+    .navbar__menu_type_footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 62px;
+    }
+
+    .navbar__menu_type_footer .navbar__menu-item {
+        margin-bottom: 30px;
+    }
+
+    .navbar__menu_type_footer .navbar__menu-item:last-of-type {
+        margin-bottom: 25px;
+    }
+}

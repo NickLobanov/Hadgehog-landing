@@ -1,5 +1,10 @@
 .navbar__phone {
-    margin-right: 80px;
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .navbar__phone {
+        margin-left: auto;
+    }
 }

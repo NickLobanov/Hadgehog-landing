@@ -1,0 +1,6 @@
+@media screen and (max-width: 530px) {
+    .icon__image {
+        width: 43px;
+        height: 43px;
+    }
+}

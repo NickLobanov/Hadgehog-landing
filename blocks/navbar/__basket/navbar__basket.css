@@ -7,3 +7,10 @@
     height: 32px;
     position: relative;
 }
+
+@media screen and (max-width: 530px) {
+    .navbar__basket {
+        width: 32px;
+        height: 26;
+    }
+}

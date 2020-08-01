@@ -8,12 +8,40 @@
 @import url(./__sale/service__sale.css);
 @import url(./__info/service__info.css);
 @import url(./__plus/service__plus.css);
+@import url(./__text/service__text.css);
+@import url(./__heart/service__heart.css);
+@import url(./__like/service__like.css);
 
 .service {
-    width: 1182px;
+    width: 61%;
     display: flex;
     margin: 0 auto;
     margin-bottom: 140px;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1880px) {
+    .service {
+        width: 70%
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .service {
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .service {
+        width: 100%;
+    }
 }

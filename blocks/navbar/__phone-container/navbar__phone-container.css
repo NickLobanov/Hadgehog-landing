@@ -8,3 +8,18 @@
     border-radius: 50%;
     background: linear-gradient(45deg, #B0D3CE, #FFEDCE)
 }
+
+@media screen and (max-width: 1440px) {
+    .navbar__phone-container {
+        min-height: 55px;
+        width: 55px;
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .navbar__phone-container {
+        width:35px;
+        min-height: 35px;
+    }
+}

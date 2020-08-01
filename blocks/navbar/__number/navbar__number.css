@@ -6,3 +6,10 @@
     font-size: 22px;
     line-height: 26px;
 }
+
+@media screen and (max-width: 1440px) {
+    .navbar__number {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

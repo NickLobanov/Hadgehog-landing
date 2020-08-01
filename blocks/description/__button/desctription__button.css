@@ -12,3 +12,9 @@
     line-height: 16px;
     color: #ffffff;
 }
+
+@media screen and (max-width: 530px) {
+    .description__button {
+        width: 96%;
+    }
+}

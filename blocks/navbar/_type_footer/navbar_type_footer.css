@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+    .navbar_type_footer {
+        flex-direction: column;
+        align-items: flex-start;
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar_type_footer {
+        flex-wrap: wrap;
+    }
+}

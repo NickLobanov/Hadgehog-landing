@@ -5,3 +5,9 @@
     height: 40px;
     background-image: url(../../../images/fb.svg);
 }
+
+@media screen and (max-width: 800px) {
+    .navbar__fb {
+        margin: 0;
+    }
+}

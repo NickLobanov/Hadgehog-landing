@@ -8,3 +8,32 @@
     margin-top: 0;
     margin-bottom: 8px;
 }
+
+@media screen and (max-width: 1200px) {
+    .icon__title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .icon__title {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icon__title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .icon__title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

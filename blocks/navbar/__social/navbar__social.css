@@ -5,3 +5,23 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 1440px) {
+    .navbar__social {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar__social {
+        order: 2;
+        margin-left: auto;
+        margin-right: 3%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar__social {
+        flex-direction: column;
+    }
+}

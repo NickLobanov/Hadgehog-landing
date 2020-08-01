@@ -3,10 +3,17 @@
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__link/_type_footer/navbar__link_type_footer.css);
 @import url(../blocks/navbar/__contacts/_type_footer/navbar__contacts_type_footer.css);
+@import url(../blocks/navbar/__menu/_type_footer/navbar__menu_type_footer.css);
+@import url(../blocks/navbar/_type_footer/navbar_type_footer.css);
+@import url(../blocks/navbar/__logo/_type_footer/navbar__logo_type_footer.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/icons/icons.css);
 @import url(../blocks/icon/icon.css);
 @import url(../blocks/icon/_type_high/icon_type_high.css);
+@import url(../blocks/icon/_type_care/icon_type_care.css);
+@import url(../blocks/icon/_type_hog/icon_type_hog.css);
 @import url(../blocks/service/service.css);
+@import url(../blocks/service/__item/_background/service__item_background_feed.css);
+@import url(../blocks/service/__item/_background/service__item_background_max.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/popup/popup.css);

@@ -8,3 +8,10 @@
     text-transform: uppercase;
     color: #195557
 }
+
+@media screen and (max-width: 1440px) {
+    .navbar__link {
+        font-size: 14px;
+         line-height: 17px;
+    }
+}

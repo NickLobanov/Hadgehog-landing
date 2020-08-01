@@ -14,11 +14,33 @@
 @import url(./__tw/navbar__tw.css);
 @import url(./__fb/navbar__fb.css);
 @import url(./__inst/navbar__inst.css);
+@import url(./__burger/navbar__burger.css);
 
 .navbar {
     display: flex;
     align-items: center;
-    width: 1800px;
+    justify-content: space-between;
+    width: 94%;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .navbar {
+        flex-wrap: wrap;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar {
+        flex-wrap: nowrap;
+        justify-content: normal;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .navbar {
+        width: 92%;
+    }
 }
 

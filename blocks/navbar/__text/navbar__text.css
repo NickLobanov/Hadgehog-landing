@@ -6,3 +6,10 @@
     line-height: 16px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1440px) {
+    .navbar__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

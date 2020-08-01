@@ -2,12 +2,57 @@
     position: relative;
     display: flex;
     width: 571px;
-    background-color: #ffedcd;
-    box-shadow: 4px 4px 40px #F1F1F1;
+    background-image: url(../../../images/background-john.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px;
 }
 
 .service__item:last-of-type {
     margin: 0 auto;
     margin-top: 27px;
+}
+
+.service__item:last-of-type .service__price{
+    margin-top: 30px;
+    margin-bottom: 59px;
+}
+
+@media screen and (max-width: 1440px) {
+    .service__item {
+        width: 500px
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service__item {
+        width: 571px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .service__item {
+        width: 74%;
+    }
+
+    .service__item::after {
+        content: ' ';
+        background-color: white;
+        width: 40px;
+        height: 120px;
+        position: absolute;
+        bottom: -40px;
+        right: -8px;
+        transform: rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .service__item::after{
+        width: 40px;
+        height: 80px;
+        bottom: -25px;
+        right: -8px;
+    }
 }

@@ -1,5 +1,18 @@
 .service__container {
     position: relative;
-    width: 204px;
+    width: 195px;
     margin-left: 59px;
+}
+
+@media screen and (max-width: 650px) {
+    .service__container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .service__container {
+        width: 53%;
+        margin-left: 25px;
+    }
 }

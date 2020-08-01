@@ -1,7 +1,47 @@
 .icons {
     margin: 0 auto;
     margin-bottom: 80px;
-    width: 874px;
+    width: 45%;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1650px) {
+    .icons {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .icons {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .icons {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icons {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0;
+        margin-left: 7%;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .icons {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .icons {
+        margin-bottom: 60px;
+    }
 }

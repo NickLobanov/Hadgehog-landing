@@ -7,3 +7,24 @@
     margin-top: 0;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 1440px) {
+    .service__description {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service__description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .service__description {
+        font-size: 11px;
+        line-height: 19px;
+    }
+}

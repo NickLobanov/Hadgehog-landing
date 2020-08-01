@@ -1,0 +1,18 @@
+@media screen and (max-width: 730px) {
+    .service__text {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: #195557;
+    }
+
+    .service__text::after {
+        content: ' ';
+        background-image: url(../../../images/needle.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 13px;
+        height: 13px;
+    }
+}

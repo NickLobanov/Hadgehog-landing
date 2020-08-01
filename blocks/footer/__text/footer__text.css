@@ -4,11 +4,24 @@
     font-weight: normal;
     font-size: 9px;
     color: #ffffff;
-    margin-left: 50px;
+    margin-left: 3%;
     margin-top: 24px;
 }
 
 .footer__text:last-of-type {
     margin-top: 5px;
     padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer__text {
+        margin-left: 7%; 
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .footer__text {
+        margin-left: 4%; 
+        width: 70%;
+    }
 }

@@ -1,3 +1,23 @@
 .description__image {
     margin-bottom: 19px;
 }
+
+@media screen and (max-width: 1440px) {
+    .description__image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .description__image {
+        width: 350px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .description__image {
+        width: 202px;
+        margin-bottom: 12px;
+    }
+}

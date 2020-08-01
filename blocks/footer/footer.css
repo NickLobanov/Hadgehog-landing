@@ -1,7 +1,13 @@
-@import url(./__navbar/footer__navbar.css);
 @import url(./__text/footer__text.css);
 
 .footer {
+    width: 100%;
     background-color: #70908b;
     padding-top: 50px;
+}
+
+@media screen and (max-width: 730px) {
+    .footer {
+        max-height: 475px;
+    }
 }
