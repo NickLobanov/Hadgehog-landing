@@ -1,0 +1,22 @@
+.page__image_type_left {
+    top: 500px;
+    left: 0;
+}
+
+@media screen and (max-width: 1650px) {
+    .page__image_type_left{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .page__image_type_left{
+       top: 550px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .page__image_type_left {
+        display: none;
+    }
+}

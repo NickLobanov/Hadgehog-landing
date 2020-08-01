@@ -1,0 +1,6 @@
+.page__image {
+    position: absolute;
+    object-fit: scale-down;
+    white-space: nowrap;
+    display: block;
+}
