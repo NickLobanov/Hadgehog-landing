@@ -8,6 +8,7 @@
 @import url(./__contacts/popup__contacts.css);
 @import url(./__label/popup__label.css);
 @import url(./__checkbox/popup__checkbox.css);
+@import url(./__button-close/popup__button-close.css);
 
 .popup {
     width: 100%;

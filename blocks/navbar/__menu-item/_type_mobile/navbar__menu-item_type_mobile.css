@@ -1,0 +1,7 @@
+.navbar__menu-item_type_mobile {
+    margin-bottom: 19px;
+}
+
+.navbar__menu-item_type_mobile:last-of-type {
+    margin-bottom: 142px;
+}

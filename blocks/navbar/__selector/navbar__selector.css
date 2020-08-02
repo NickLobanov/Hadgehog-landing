@@ -1,0 +1,13 @@
+.navbar__selector {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    background: #fffffe;
+    box-shadow: 4px 4px 20px #c2ccca;
+    border-radius: 8px;
+    width: 170px;
+    top: 40px;
+    right: 50%;
+    padding-left: 24px;
+}

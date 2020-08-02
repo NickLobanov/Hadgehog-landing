@@ -1,0 +1,13 @@
+.service__likes {
+    display: none;
+    background-image: url(../../../images/likes-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 730px) {
+    .service__likes {
+        display: flex;
+        background: none;
+    }
+}

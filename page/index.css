@@ -1,3 +1,4 @@
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/navbar/navbar.css);
@@ -6,6 +7,14 @@
 @import url(../blocks/navbar/__menu/_type_footer/navbar__menu_type_footer.css);
 @import url(../blocks/navbar/_type_footer/navbar_type_footer.css);
 @import url(../blocks/navbar/__logo/_type_footer/navbar__logo_type_footer.css);
+@import url(../blocks/navbar/__menu-item/_type_list/navbar__menu-item_type_list.css);
+@import url(../blocks/mobile-popup/mobile-popup.css);
+@import url(../blocks/navbar/__menu/_type_mobile/navbar__menu_type_mobile.css);
+@import url(../blocks/navbar/__logo/_type_mobile/navbar__logo_type_mobile.css);
+@import url(../blocks/navbar/__menu-item/_type_mobile/navbar__menu-item_type_mobile.css);
+@import url(../blocks/navbar/__contacts/_type_mobile/navbar__contact_type_mobile.css);
+@import url(../blocks/navbar/__selector/_opened/navbar__selector_opened.css);
+@import url(../blocks/navbar/__menu-item/_type_list/navbar__menu-item_type_opened.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/icons/icons.css);
 @import url(../blocks/icon/icon.css);
@@ -15,6 +24,9 @@
 @import url(../blocks/service/service.css);
 @import url(../blocks/service/__item/_background/service__item_background_feed.css);
 @import url(../blocks/service/__item/_background/service__item_background_max.css);
+@import url(../blocks/service/__likes/_active/service__likes_active.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/mobile-popup/_opened/mobile-popup_opened.css);
 

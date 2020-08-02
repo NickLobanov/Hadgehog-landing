@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="page/index.css">
     <title>Hadgehog</title>
 </head>
@@ -13,7 +13,7 @@
             <div class="navbar__burger"></div>
             <a class="navbar__link-logo"><img src="images/Logo.svg" alt="Логотп" class="navbar__logo"></a>
             <ul class="navbar__menu">
-                <li class="navbar__menu-item"><a href="#" class="navbar__link">Каталог</a></li>
+                <li class="navbar__menu-item navbar__menu-item_type_list"><a href="#" class="navbar__link">Каталог</a></li>
                 <li class="navbar__menu-item"><a href="#" class="navbar__link">О нас</a></li>
                 <li class="navbar__menu-item"><a href="#" class="navbar__link">Контакты</a></li>
                 <li class="navbar__menu-item"><a href="#" class="navbar__link">Галерея</a></li>
@@ -26,6 +26,12 @@
                 </div> 
             </div>
             <div class="navbar__basket"></div>
+            <ul class="navbar__selector">
+                <li class="navbar__selector-item"><a href="#" class="navbar__link">Ежики</a></li>
+                <li class="navbar__selector-item"><a href="#" class="navbar__link">Питание</a></li>
+                <li class="navbar__selector-item"><a href="#" class="navbar__link">Переноски</a></li>
+                <li class="navbar__selector-item"><a href="#" class="navbar__link">Лекарства</a></li>
+            </ul>  
         </nav>
     </header>
 
@@ -65,7 +71,13 @@
                 <span class="service__sale">-50 &percnt;</span>
             </div>
             <img class="service__image" src="images/hog.png" alt="Еж">
-            <div class="service__info"></div>
+            <div class="service__info">
+                <div class="service__info-image"></div>
+                <div class="service__likes">
+                    <p class="service__inculate">Привит</p>
+                    <span class="service__like">1235</span>
+                </div>
+            </div>
             <div class="service__plus"></div>
         </div>
         <div class="service__item service__item_background_max">
@@ -78,7 +90,13 @@
                 <span class="service__sale">-50 &percnt;</span>
             </div>
             <img class="service__image" src="images/hog.png" alt="Еж">
-            <div class="service__info"></div>
+            <div class="service__info">
+                <div class="service__info-image"></div>
+                <div class="service__likes">
+                    <p class="service__inculate">Привит</p>
+                    <span class="service__like">1235</span>
+                </div>
+            </div>
             <div class="service__plus"></div>
         </div>
         <div class="service__item service__item_background_feed">
@@ -124,15 +142,31 @@
                 <select name="" id="" class="popup__selector">
                     <option value="Санкт-Петербург" class="popup__select-item">Санкт-Петербург</option>
                 </select>
-                <input type="text"  placeholder="Ваше имя" class="popup__contacts">
-                <input type="number" placeholder="Телефон" class="popup__contacts">
-                <label for="buy-hog" class="popup__label"><input class="popup__checkbox" type="checkbox" checked="checked" id="buy-hog">Хочу приобрести ежика</label>
+                <input type="text"  placeholder="Ваше имя" class="popup__contacts popup__name">
+                <input type="number" placeholder="Телефон" class="popup__contacts popup__phone">
+                <label for="buy-hog" class="popup__label"><input class="popup__checkbox" type="checkbox" id="buy-hog">Хочу приобрести ежика</label>
                 <label for="about-care" class="popup__label"><input class="popup__checkbox" type="checkbox" id="about-care">Хочу узнать подробности об уходе</label>
                 <label for="about-buy" class="popup__label"><input class="popup__checkbox" type="checkbox" id="about-buy">Хочу узнать подробности о покупке</label>
                 <button class="popup__button">Отправить</button>
                 <p class="popup__notice">Нажимая кнопку ОТПРАВТЬ вы соглашаетесь с условиями оброботки данных</p>
+                <button class="popup__button-close" type="button"></button>
             </form>
         </div>
     </div>
+    <div class="mobile-popup">
+        <button class="mobile-popup__close" type="button"></button>
+        <img src="images/Logo.svg" alt="Логотп" class="navbar__logo navbar__logo_type_mobile">
+        <ul class="navbar__menu navbar__menu_type_mobile">
+            <li class="navbar__menu-item navbar__menu-item_type_mobile"><a href="#" class="navbar__link">Каталог</a></li>
+            <li class="navbar__menu-item navbar__menu-item_type_mobile"><a href="#" class="navbar__link">О нас</a></li>
+            <li class="navbar__menu-item navbar__menu-item_type_mobile"><a href="#" class="navbar__link">Контакты</a></li>
+            <li class="navbar__menu-item navbar__menu-item_type_mobile"><a href="#" class="navbar__link">Галерея</a></li>
+        </ul>
+        <div class="navbar__contacts navbar__contacts_type_footer navbar__contacts_type_mobile">
+            <p class="navbar__text">Позвоните мне</p>
+            <p class="navbar__number">+7 (965) 569-89-98</p>
+        </div> 
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>

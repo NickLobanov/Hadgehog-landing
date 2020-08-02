@@ -1,0 +1,13 @@
+.mobile-popup__close {
+    background-image: url(../../../images/plus.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 25px;
+    height: 25px;
+    border: none;
+}

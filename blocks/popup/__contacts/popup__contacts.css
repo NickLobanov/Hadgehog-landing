@@ -1,9 +1,4 @@
 .popup__contacts {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
     padding-top: 23px;
     padding-bottom: 23px;
     padding-left: 27px;
@@ -11,6 +6,11 @@
     border: none;
     border-radius: 8px;
     margin-bottom: 11px;
+    font-family: 'Railway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .popup__contacts::placeholder {

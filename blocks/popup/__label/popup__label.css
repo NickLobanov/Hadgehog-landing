@@ -1,7 +1,7 @@
 .popup__label {
-    font-family: sans-serif;
+    font-family: 'Railway', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #195557;

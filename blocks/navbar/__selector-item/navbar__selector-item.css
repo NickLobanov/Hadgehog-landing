@@ -1,0 +1,7 @@
+.navbar__selector-item {
+    margin-bottom: 20px;
+}
+
+.navbar__selector-item:first-of-type {
+    margin-top: 20px;
+}

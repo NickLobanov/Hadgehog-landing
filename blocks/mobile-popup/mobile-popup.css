@@ -1,0 +1,14 @@
+@import url(./__close/mobile-popup__close.css);
+
+.mobile-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 4px 4px 20px #e3e3e3;
+    border-radius: 0px 10px 10px 0px;
+    visibility: hidden;
+}

@@ -1,0 +1,12 @@
+.navbar__menu-item_type_list::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+    background-image: url(../../../../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+}

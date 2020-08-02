@@ -15,8 +15,11 @@
 @import url(./__fb/navbar__fb.css);
 @import url(./__inst/navbar__inst.css);
 @import url(./__burger/navbar__burger.css);
+@import url(./__selector/navbar__selector.css);
+@import url(./__selector-item/navbar__selector-item.css);
 
 .navbar {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;

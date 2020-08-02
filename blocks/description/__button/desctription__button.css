@@ -13,6 +13,11 @@
     color: #ffffff;
 }
 
+.description__button:hover {
+    color: #195557;
+    background: linear-gradient(90.68deg, #b0d3ce -2.41%, #ffedce 99.79%)
+}
+
 @media screen and (max-width: 530px) {
     .description__button {
         width: 96%;

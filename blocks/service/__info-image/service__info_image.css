@@ -1,0 +1,13 @@
+.service__info-image {
+    width: 37px;
+    height: 37px;
+    background-image: url(../../../images/info.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 730px) {
+    .service__info-image {
+        display: none;
+    }
+}

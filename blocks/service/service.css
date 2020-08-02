@@ -11,6 +11,9 @@
 @import url(./__text/service__text.css);
 @import url(./__heart/service__heart.css);
 @import url(./__like/service__like.css);
+@import url(./__inculate/service__inculate.css);
+@import url(./__info-image/service__info_image.css);
+@import url(./__likes/service__likes.css);
 
 .service {
     width: 61%;
