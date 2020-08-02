@@ -8,3 +8,9 @@
     font-weight: 400;
     color: #195557;
 }
+
+@media screen and (max-width: 850px) {
+    .popup__selector {
+        width: 100%;
+    }
+}
