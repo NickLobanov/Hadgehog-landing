@@ -1,4 +1,6 @@
 .description__image {
+    width: 443px;
+    height: 94px;
     margin-bottom: 19px;
 }
 
@@ -15,8 +17,16 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .description__image {
+        margin-bottom: 0;
+        height: 80px;
+    }
+}
+
 @media screen and (max-width: 530px) {
     .description__image {
+        height: 50px;
         width: 202px;
         margin-bottom: 12px;
     }

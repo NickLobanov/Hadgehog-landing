@@ -1,6 +1,7 @@
 @import url(./__image/page__image.css);
 @import url(./__image/_type/page__image_type_left.css);
 @import url(./__image/_type/page__image_type_right.css);
+@import url(./__cirlce/page__circle.css);
 
 .page {
     position: relative;

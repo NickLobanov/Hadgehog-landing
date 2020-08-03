@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -21,6 +22,7 @@
 @import url(../blocks/icon/_type_high/icon_type_high.css);
 @import url(../blocks/icon/_type_care/icon_type_care.css);
 @import url(../blocks/icon/_type_hog/icon_type_hog.css);
+@import url(../blocks/icon/__image/_hog/icon__image_hog.css);
 @import url(../blocks/service/service.css);
 @import url(../blocks/service/__item/_background/service__item_background_feed.css);
 @import url(../blocks/service/__item/_background/service__item_background_max.css);

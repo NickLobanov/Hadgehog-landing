@@ -5,6 +5,10 @@ const closeButton = popup.querySelector('.popup__button-close');
 function popupClose() {
     popup.classList.remove('popup_opened')
     document.removeEventListener('keyup', handleEecClick)
+    checkboxHog.checked = false;
+    checkboxCare.checked = false;
+    checkboxInfo.checked = false;
+
 }
 
 function handleEecClick(evt) {
@@ -51,8 +55,8 @@ allCheckbox.forEach(item => {
     item.addEventListener('input', handleForm)
 })
 
+//Открытие меню информации
 const infoHog = document.querySelectorAll('.service__info')
-
 
 infoHog.forEach(item => {
     const infoImage = item.querySelector('.service__info-image');
@@ -65,6 +69,7 @@ infoHog.forEach(item => {
     });
 })
 
+//Открытие мобильного меню
 const burger = document.querySelector('.navbar__burger')
 const mobilePopup = document.querySelector('.mobile-popup')
 const closeMenuButton = mobilePopup.querySelector('.mobile-popup__close')
@@ -80,6 +85,7 @@ function closeMobilePopup() {
 burger.addEventListener('click', openMobilePopup);
 closeMenuButton.addEventListener('click', closeMobilePopup)
 
+//Открытие меню каталога
 const catalog = document.querySelector('.navbar__menu-item_type_list');
 const navbarSelector = document.querySelector('.navbar__selector');
 

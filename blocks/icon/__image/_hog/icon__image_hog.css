@@ -1,0 +1,11 @@
+.icon__image_hog {
+    width: 62px;
+    height: 62px;
+}
+
+@media screen and (max-width: 530px) {
+    .icon__image_hog {
+        width: 50px;
+        height: 50px;
+    }
+}

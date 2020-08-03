@@ -1,12 +1,9 @@
 .service__plus {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url(../../../images/plus.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     z-index: 3;
 }
 

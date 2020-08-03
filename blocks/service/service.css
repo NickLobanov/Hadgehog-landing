@@ -22,6 +22,8 @@
     margin-bottom: 140px;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
+    z-index: 3;
 }
 
 @media screen and (max-width: 1880px) {

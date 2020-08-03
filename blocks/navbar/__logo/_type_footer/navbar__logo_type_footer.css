@@ -1,5 +1,5 @@
-@media screen and (max-width: 530px) {
-    .navbar__logo_type_footer {
-        width: auto;
-    }
+.navbar__logo_type_footer {
+    fill: white;
+    width: 120px;
+    max-height: 56px;
 }

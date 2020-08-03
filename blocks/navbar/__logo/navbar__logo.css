@@ -1,3 +1,9 @@
+.navbar__logo {
+    width: 120px;
+    max-height: 56px;
+    fill: #195557;
+}
+
 @media screen and (max-width: 530px) {
     .navbar__logo {
         width: 56px

@@ -4,6 +4,8 @@
     width: 100%;
     background-color: #70908b;
     padding-top: 50px;
+    z-index: 3;
+    position: relative;
 }
 
 @media screen and (max-width: 730px) {

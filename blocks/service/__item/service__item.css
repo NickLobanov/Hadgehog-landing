@@ -22,6 +22,16 @@
     .service__item {
         width: 500px
     }
+    .service__item::after {
+        content: ' ';
+        background-color: white;
+        width: 40px;
+        height: 120px;
+        position: absolute;
+        bottom: -40px;
+        right: -8px;
+        transform: rotate(45deg);
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -34,17 +44,6 @@
 @media screen and (max-width: 730px) {
     .service__item {
         width: 74%;
-    }
-
-    .service__item::after {
-        content: ' ';
-        background-color: white;
-        width: 40px;
-        height: 120px;
-        position: absolute;
-        bottom: -40px;
-        right: -8px;
-        transform: rotate(45deg);
     }
 }
 

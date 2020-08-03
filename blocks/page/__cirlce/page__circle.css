@@ -1,0 +1,12 @@
+@import url(./_type/page__circle_type_right.css);
+@import url(./_type/page__cirlce_type_left.css);
+
+.page__circle {
+    position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__circle {
+        display: none;
+    }
+}

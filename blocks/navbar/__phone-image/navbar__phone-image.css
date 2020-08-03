@@ -1,3 +1,8 @@
+.navbar__phone-image {
+    width: 32px;
+    height: 32px;
+}
+
 @media screen and (max-width: 530px) {
     .navbar__phone-image {
         width: 11px
