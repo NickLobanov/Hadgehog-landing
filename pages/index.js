@@ -1,14 +1,15 @@
 const button = document.querySelector('.description__button');
 const popup = document.querySelector('.popup');
 const closeButton = popup.querySelector('.popup__button-close');
+const allCheckbox = popup.querySelectorAll('.popup__checkbox');
+const popupButton = popup.querySelector('.popup__button')
 
 function popupClose() {
     popup.classList.remove('popup_opened')
     document.removeEventListener('keyup', handleEecClick)
-    checkboxHog.checked = false;
-    checkboxCare.checked = false;
-    checkboxInfo.checked = false;
-
+    allCheckbox.forEach(item => {
+        item.checked = false
+    })
 }
 
 function handleEecClick(evt) {
@@ -25,35 +26,12 @@ function popupOpen() {
 button.addEventListener('click', popupOpen);
 closeButton.addEventListener('click', popupClose);
 
-function removeDisable() {
-    popupButton.removeAttribute('disabled');
-    checkboxInfo.removeAttribute('disabled');
-    inputName.removeAttribute('disabled')
+function handleForm(evt) {
+    evt.preventDefault();
+    popupClose()
 }
 
-function handleForm() {
-    if (checkboxHog.checked && checkboxCare.checked && checkboxInfo.checked) {
-        removeDisable();
-        inputName.setAttribute('disabled', true);
-    } else if (checkboxHog.checked && checkboxCare.checked) {
-        removeDisable();
-        checkboxInfo.setAttribute('disabled', true);
-        popupButton.setAttribute('disabled', true);
-    } else if (checkboxHog.checked) {
-        removeDisable();
-        popupButton.setAttribute('disabled', true);  
-    }
-}
-
-const popupButton = popup.querySelector('.popup__button')
-const checkboxHog = popup.querySelector('#buy-hog');
-const checkboxCare = popup.querySelector('#about-care');
-const checkboxInfo = popup.querySelector('#about-buy');
-const inputName = popup.querySelector('.popup__name')
-const allCheckbox = popup.querySelectorAll('.popup__checkbox');
-allCheckbox.forEach(item => {
-    item.addEventListener('input', handleForm)
-})
+popupButton.addEventListener('click', handleForm)
 
 //Открытие меню информации
 const infoHog = document.querySelectorAll('.service__info')
