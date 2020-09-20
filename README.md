@@ -8,4 +8,4 @@
 * Медиа запросы  
 * JavaScript  
 
-GitHub Pages:  https://nicklobanov.github.io/Hadgehog-test/ 
+GitHub Pages:  https://nicklobanov.github.io/Hadgehog-landing/
